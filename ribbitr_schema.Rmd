@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 <center>![](ribbitr.png){width="275px"} ![](nsf_logo.png){width="200px"}</center>
 
-<center>![](RIBBiTR%20-%20ribbitr_schema.png)</center>
+<center>![](RIBBiTR - public.png)</center>
 
 ```{r, echo = F, message=F}
 
