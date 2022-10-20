@@ -23,6 +23,17 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
     -   Per [RIBBiTR data sharing agreement](https://docs.google.com/document/d/1m1EEuUH3ioVVXtFkDaWFHITddPcmputEhZxfW_omtrI/edit#heading=h.q4aj1repk7gi)
 -   Contact data manager to develop query for variables of interest
 
+## Swab Data Nomenclature
+
+- bd_swab_id: dry swab used for Bd detection
+- genetic_id: id used for genetic processing (buccal, toe clip, tissue)
+- bacterial_swab_id: 
+- amp_id: antimicrobial peptide swab
+- mucosome_id: 
+- microbiome_swab_id:
+- crispr_swab_id:
+- antibody_id: 
+
 <center>![](ribbitr.png){width="275px"} ![](nsf_logo.png){width="200px"}</center>
 
 ## Schema: "survey_data"
