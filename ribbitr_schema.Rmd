@@ -1,5 +1,5 @@
 ---
-title: "RIBBiTR Wide Schema"
+title: "RIBBiTR Schema's"
 date: "Updated: `r format(Sys.time(), '%Y-%m-%d')`"
 output: pdf_document
 urlcolor: blue
@@ -21,20 +21,32 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 -   Select variables of interest from data tables
 -   Contact data owners within RIBBiTR for approved use of data; CC data manager
     -   Per [RIBBiTR data sharing agreement](https://docs.google.com/document/d/1m1EEuUH3ioVVXtFkDaWFHITddPcmputEhZxfW_omtrI/edit#heading=h.q4aj1repk7gi)
+    - Data owners
+      - Panama Survey Data: [Jamie Voyles](jvoyles@unr.edu)
+      - SERDP Survey Data: [Cori Richards-Zawacki](cori.zawacki@pitt.edu)
+      - Pennsylvania Survey Data: [Cori Richards-Zawacki](cori.zawacki@pitt.edu)
+      - Sierra Nevada Survey Data: [Roland Knapp](roland.knapp@ucsb.edu)
+      - Brazil Legacy Survey Data: [Gui Becker](guibecker@psu.edu)
+      - AMP:
+      - Microbiome:
+      - Genetic:
+      - Antibody:
+      - Bacterial:
+      - Mucosome:
 -   Contact data manager to develop query for variables of interest
 
 ## Swab Data Nomenclature
 
 - bd_swab_id: dry swab used for Bd detection
-- genetic_id: id used for genetic processing (buccal, toe clip, tissue)
-- bacterial_swab_id: 
-- amp_id: antimicrobial peptide swab
+- genetic_id: sample used for genetic processing (buccal, toe clip, tissue)
+- bacterial_swab_id: swab used for culturing and sequencing Bd
+- amp_id: sample used for anti-microbial peptide processing
 - mucosome_id: 
 - microbiome_swab_id:
-- crispr_swab_id:
+- crispr_swab_id: swab used for crispr Bd detection
 - antibody_id: 
 
-<center>![](ribbitr.png){width="275px"} ![](nsf_logo.png){width="200px"}</center>
+<center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100px"}</center>
 
 ## Schema: "survey_data"
 <center>![](RIBBiTR - survey_data.png)</center>
