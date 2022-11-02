@@ -39,10 +39,10 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 - bd_swab_id: dry swab used for Bd detection
 - genetic_id: sample used for genetic processing (buccal, toe clip, tissue)
-- bacterial_swab_id: swab used for culturing and sequencing Bd
+- bacterial_swab_id: swab used for culturing bacteria 
 - amp_id: sample used for anti-microbial peptide processing
-- mucosome_id: 
-- microbiome_swab_id:
+- mucosome_id: sample used for identifying all micro organisms 
+- microbiome_swab_id: swab used for sequencing bacteria
 - crispr_swab_id: swab used for crispr Bd detection
 - antibody_id: 
 
