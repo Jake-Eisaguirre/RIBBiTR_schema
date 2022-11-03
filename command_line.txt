@@ -1,0 +1,3 @@
+Run and knit document from command line
+
+Rscript -e "rmarkdown::render('ribbitr_schema.Rmd')"
