@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 ## Data Acquisition Protocol
 
--   Select variables of interest from data tables
+-   Select variables of interest from the data tables within schemas
 -   Contact data owners within RIBBiTR for approved use of data; CC data manager
     -   Per [RIBBiTR data sharing agreement](https://docs.google.com/document/d/1m1EEuUH3ioVVXtFkDaWFHITddPcmputEhZxfW_omtrI/edit#heading=h.q4aj1repk7gi)
     - Data owners
@@ -27,23 +27,24 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
       - Pennsylvania Survey Data: [Cori Richards-Zawacki](cori.zawacki@pitt.edu)
       - Sierra Nevada Survey Data: [Roland Knapp](roland.knapp@ucsb.edu)
       - Brazil Legacy Survey Data: [Gui Becker](guibecker@psu.edu)
-      - AMP:
-      - Microbiome:
-      - Genetic:
-      - Antibody:
-      - Bacterial:
-      - Mucosome:
+      - AMP: [Louise Rollins-Smith](louise.rollins-smith@vanderbilt.edu)
+      - Microbiome: [Doug Woodhams](dwoodhams@gmail.com)
+      - Genetic: [Bree Rosenblum](rosenblum@berkeley.edu)
+      - Antibody: [Louise Rollins-Smith](louise.rollins-smith@vanderbilt.edu)
+      - Bacterial: [Doug Woodhams](dwoodhams@gmail.com)
+      - Mucosome: [Doug Woodhams](dwoodhams@gmail.com)
 -   Contact data manager to develop query for variables of interest
+-   *Note*: If you are requesting data from a processed swab table, then you must also contact the team that collected the swab and the team that processed the swab.
 
 ## Swab Data Nomenclature
 
 - bd_swab_id: dry swab used for Bd detection
 - genetic_id: sample used for genetic processing (buccal, toe clip, tissue)
 - bacterial_swab_id: swab used for culturing bacteria 
-- amp_id: sample used for anti-microbial peptide processing
 - mucosome_id: sample used for identifying all micro organisms 
 - microbiome_swab_id: swab used for sequencing bacteria
 - crispr_swab_id: swab used for crispr Bd detection
+- amp_id: sample used for anti-microbial peptide processing
 - antibody_id: 
 
 <center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100px"}</center>
@@ -53,6 +54,9 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 ## Schema: "hobo"
 <center>![](RIBBiTR - hobo.png)</center>
+
+## Schema: "antifungal_isolate"
+<center>![](RIBBiTR - antifungal_isolate_ref.png)</center>
 
 ```{r, echo = F, message=F}
 
