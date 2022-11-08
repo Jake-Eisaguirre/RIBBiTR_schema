@@ -57,15 +57,11 @@ The data found within the "survey_data" schema is comprised of RIBBiTR researche
 -   **amp_id**: sample used for anti-microbial peptide processing
 -   **antibody_id**:
 
-### "survey_data"
+\pagebreak
 
 <center>![schema: survey_data](RIBBiTR%20-%20survey_data.png){width="100%"}</center>
 
-## Schema: "hobo"
-
 <center>![schema: hobo](RIBBiTR%20-%20hobo.png){width="100%"}</center>
-
-## Schema: "antifungal_isolate"
 
 <center>![schema: antifungal_isolate](RIBBiTR%20-%20antifungal_isolate.png)</center>
 

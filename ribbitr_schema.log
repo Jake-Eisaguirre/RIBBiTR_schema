@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.1)  8 NOV 2022 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.1)  8 NOV 2022 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,57 +411,57 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 74
 (/Users/JaketheBoss/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<ribbitr.png, id=40, 142.131pt x 75.4017pt>
+<ribbitr.png, id=28, 142.131pt x 75.4017pt>
 File: ribbitr.png Graphic file (type png)
 <use ribbitr.png>
 Package pdftex.def Info: ribbitr.png  used on input line 127.
 (pdftex.def)             Requested size: 131.74669pt x 69.89273pt.
-<nsf_logo.png, id=42, 325.215pt x 327.186pt>
+<nsf_logo.png, id=30, 325.215pt x 327.186pt>
 File: nsf_logo.png Graphic file (type png)
 <use nsf_logo.png>
 Package pdftex.def Info: nsf_logo.png  used on input line 128.
 (pdftex.def)             Requested size: 75.27922pt x 75.73546pt.
 [1
 
-{/Users/JaketheBoss/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ribbitr.png> <./nsf_logo.png>]
-<RIBBiTR - survey_data.png, id=58, 1920.17375pt x 2131.965pt>
+{/Users/JaketheBoss/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./ribbitr.png> <./nsf_logo.png>] [2]
+<RIBBiTR - survey_data.png, id=52, 1920.17375pt x 2131.965pt>
 File: RIBBiTR - survey_data.png Graphic file (type png)
 <use RIBBiTR - survey_data.png>
-Package pdftex.def Info: RIBBiTR - survey_data.png  used on input line 180.
+Package pdftex.def Info: RIBBiTR - survey_data.png  used on input line 179.
 (pdftex.def)             Requested size: 469.72885pt x 521.53899pt.
-<RIBBiTR - hobo.png, id=59, 410.53375pt x 707.64375pt>
+<RIBBiTR - hobo.png, id=53, 410.53375pt x 707.64375pt>
 File: RIBBiTR - hobo.png Graphic file (type png)
 <use RIBBiTR - hobo.png>
-Package pdftex.def Info: RIBBiTR - hobo.png  used on input line 189.
+Package pdftex.def Info: RIBBiTR - hobo.png  used on input line 185.
 (pdftex.def)             Requested size: 377.34483pt x 650.43549pt.
 
-LaTeX Warning: Float too large for page by 23.9499pt on input line 191.
+LaTeX Warning: Float too large for page by 23.9499pt on input line 187.
 
-<RIBBiTR - antifungal_isolate.png, id=60, 221.82875pt x 704.6325pt>
+<RIBBiTR - antifungal_isolate.png, id=54, 221.82875pt x 704.6325pt>
 File: RIBBiTR - antifungal_isolate.png Graphic file (type png)
 <use RIBBiTR - antifungal_isolate.png>
-Package pdftex.def Info: RIBBiTR - antifungal_isolate.png  used on input line 199.
+Package pdftex.def Info: RIBBiTR - antifungal_isolate.png  used on input line 191.
 (pdftex.def)             Requested size: 204.76526pt x 650.43091pt.
 
-LaTeX Warning: Float too large for page by 23.94533pt on input line 201.
+LaTeX Warning: Float too large for page by 23.94533pt on input line 193.
 
-[2] [3 <./RIBBiTR - survey_data.png (PNG copy)>] [4 <./RIBBiTR - hobo.png (PNG copy)>] [5 <./RIBBiTR - antifungal_isolate.png (PNG copy)>] (./ribbitr_schema.aux)
+[3 <./RIBBiTR - survey_data.png (PNG copy)>] [4 <./RIBBiTR - hobo.png (PNG copy)>] [5 <./RIBBiTR - antifungal_isolate.png (PNG copy)>] (./ribbitr_schema.aux)
 Package rerunfilecheck Info: File `ribbitr_schema.out' has not changed.
-(rerunfilecheck)             Checksum: 30B653FE3237CB122FB529F73F4696BC;989.
+(rerunfilecheck)             Checksum: 3D0B6AF372C84BB28AEC2D2B9062A82F;510.
  ) 
 Here is how much of TeX's memory you used:
- 11012 strings out of 480313
- 173488 string characters out of 5896115
- 491012 words of memory out of 5000000
- 28691 multiletter control sequences out of 15000+600000
+ 11000 strings out of 480313
+ 173322 string characters out of 5896115
+ 490879 words of memory out of 5000000
+ 28685 multiletter control sequences out of 15000+600000
  441312 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,63p,281b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,63p,281b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on ribbitr_schema.pdf (5 pages, 2115500 bytes).
+Output written on ribbitr_schema.pdf (5 pages, 2114147 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
