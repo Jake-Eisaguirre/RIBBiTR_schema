@@ -4,7 +4,10 @@ date: "Updated: `r format(Sys.time(), '%Y-%m-%d')`"
 output: pdf_document
 urlcolor: blue
 indent: true
-header-includes: \usepackage{indentfirst}
+header-includes: 
+ - \usepackage{indentfirst}
+
+
 ---
 
 ```{r setup, include=FALSE}
@@ -16,7 +19,26 @@ if (!require(librarian)){
 librarian::shelf(here, tidyverse, googledrive)
 
 knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+
+
+
 ```
+
+```{r}
+# rib <- here("ribbitr.png")
+# htmltools::img(src = knitr::image_uri(rib), 
+#                alt = 'logo', 
+#                style = 'position:absolute; top:0; right:0; padding:10px; width: 110px; height: 128px') # Added width and height as CSS
+
+ # - \usepackage{graphicx}
+ # - \usepackage{fancyhdr}
+ # - \pagestyle{fancy}
+ # - \fancyhead[R]{\includegraphics[width=3cm]{ribbitr.png}}
+ # - \fancyhead[R]{\includegraphics[width=3cm]{nsf_logo.png}}
+ # - \renewcommand{\headrulewidth}{0.4pt}
+ # - \renewcommand{\footrulewidth}{0.4pt}
+```
+
 
 ## Data Acquisition Protocol
 
@@ -38,7 +60,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 -   Contact data manager to develop query for variables of interest
 -   *Note*: If you are requesting data from a processed swab table, then you must also contact the team that collected the swab and the team that processed the swab.
 
-<center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100px"}</center>
+<center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100"}</center>
 
 \pagebreak
 
@@ -59,11 +81,38 @@ The data found within the "survey_data" schema is comprised of RIBBiTR researche
 
 \pagebreak
 
-<center>![schema: survey_data](RIBBiTR%20-%20survey_data.png){width="100%"}</center>
+```{r, echo=F, out.width="100%", out.height="100%"}
+img <- here("RIBBiTR - survey_data.png")
+knitr::include_graphics(img)
+```
 
-<center>![schema: hobo](RIBBiTR%20-%20hobo.png){width="100%"}</center>
+\pagebreak
 
-<center>![schema: antifungal_isolate](RIBBiTR%20-%20antifungal_isolate.png)</center>
+# Schema: "hobo"
+
+Currently, the data found with in the "hobo" schema contains environmental data for select legacy RIBBiTR sites from the SERDP surveys. Four hobo loggers where deployed per selected sites; shade, soil, sun, and water which indicate environmental location of the logger at the site. Data points were collected every 30 minutes per hobo logo. The shade hobo logger contains measurements for temperature, relative humidity, and dew point. The sun hobo logger contains measurements for temperature and light intensity. The soil hobo logger contains measurements for soil temperature. The water hobo logger contains measurements for water temperature and light intensity. 
+
+```{r, echo=F, out.height="80%", out.width="100%"}
+
+img_hobo <- here("RIBBiTR - hobo.png")
+knitr::include_graphics(img_hobo)
+```
+
+\pagebreak
+
+# Schema: "antifungal_isolate
+
+add text about isolate ref table
+
+\pagebreak
+
+```{r, echo=F, out.width="100%"}
+
+img_fung <- here("RIBBiTR - antifungal_isolate.png")
+knitr::include_graphics(img_fung)
+```
+
+\pagebreak
 
 ```{r, echo = F, message=F}
 
