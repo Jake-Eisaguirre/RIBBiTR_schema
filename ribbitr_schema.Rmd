@@ -6,8 +6,6 @@ urlcolor: blue
 indent: true
 header-includes: 
  - \usepackage{indentfirst}
-
-
 ---
 
 ```{r setup, include=FALSE}
@@ -39,7 +37,6 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
  # - \renewcommand{\footrulewidth}{0.4pt}
 ```
 
-
 ## Data Acquisition Protocol
 
 -   Select variables of interest from the data tables within schemas
@@ -68,14 +65,16 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 The data found within the "survey_data" schema is comprised of RIBBiTR researcher legacy data and new NSF funded RIBBiTR data from Brazil, Panama, Sierra Nevada's (CA), Pennsylvania, Tennessee, Vermont, New Mexico, and Louisiana. Data for select sites in The Sierra Nevada's begins in 1995 with the majority of the data ranging between 2012-present. The most course resolution of data begins in the "location" table; Panama, Brazil, or USA, with the finest resolution of data to the individual level in the "capture" table. Each RIBBiTR site, Pennsylvania, Panama, Brazil, and Sierra Nevada's, has their own unique survey table (IE "penn_survey") to distinguish between region specific metadata. Within the "capture" table, there is individual level characteristics as well as columns indicating the various swabs and samples collected from the organism (IE "bd_swab_id"). Tables displayed to the right of the "capture" table contain processed swab data for various swabs and samples (IE "sierra_nevada_bd").
 
+$~$
 
+When viewing the schema, read from left to right with the left most part of the schema containing the most course resolution of data and the right right most part of the schema containing the most fine resolution of data. For this schema, if tables are connected by a line then we know there is a "one to many" relationship between the data tables. For example, we know one "location" (IE USA) can have many "regions" (IE Pennsylvania, New Mexico, etc), and one "region" (IE Pennsylvania) can have many "sites" (IE phelps pond, wood lab pond, etc). This pattern trickles through the schema until the "aural", "ves", and "capture" tables where the individual organism level data is stored. The processed swab tables (IE "serdp_bd") are a "one to one" relationship, meaning one swab ID is associated with one organism in the "capture" table. For example if a "bd_swab_id" is presnet in the "capture" table and the "bd_swab_id" is present in the "serdp_bd" table then we have processed swab data associated with that individual.
 
 ## Swab Data Nomenclature
 
 -   **bd_swab_id**: dry swab used for Bd detection
 -   **genetic_id**: sample used for genetic processing (buccal, toe clip, tissue)
 -   **bacterial_swab_id**: swab used for culturing bacteria
--   **mucosome_id**: sample used for identifying all micro organisms
+-   **mucosome_id**: sample used for identifying all microbial organisms
 -   **microbiome_swab_id**: swab used for sequencing bacteria
 -   **crispr_swab_id**: swab used for crispr Bd detection
 -   **amp_id**: sample used for anti-microbial peptide processing
@@ -92,7 +91,7 @@ knitr::include_graphics(img)
 
 # Schema: "hobo"
 
-Currently, the data found with in the "hobo" schema contains environmental data for select legacy RIBBiTR sites from the SERDP surveys. Four hobo loggers where deployed per selected sites; shade, soil, sun, and water which indicate environmental location of the logger at the site. Data points were collected every 30 minutes per hobo logo. The shade hobo logger contains measurements for temperature, relative humidity, and dew point. The sun hobo logger contains measurements for temperature and light intensity. The soil hobo logger contains measurements for soil temperature. The water hobo logger contains measurements for water temperature and light intensity. 
+Currently, the data found with in the "hobo" schema contains environmental data for select legacy RIBBiTR sites from the SERDP surveys. Four hobo loggers where deployed per selected sites; shade, soil, sun, and water which indicate environmental location of the logger at the site. Data points were collected every 30 minutes per hobo logo. The shade hobo logger contains measurements for temperature, relative humidity, and dew point. The sun hobo logger contains measurements for temperature and light intensity. The soil hobo logger contains measurements for soil temperature. The water hobo logger contains measurements for water temperature and light intensity.
 
 ```{r, echo=F, out.height="80%", out.width="100%"}
 
