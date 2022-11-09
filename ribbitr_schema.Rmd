@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 ```
 
-```{r}
+```{r, echo=F}
 # rib <- here("ribbitr.png")
 # htmltools::img(src = knitr::image_uri(rib), 
 #                alt = 'logo', 
@@ -68,6 +68,8 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 The data found within the "survey_data" schema is comprised of RIBBiTR researcher legacy data and new NSF funded RIBBiTR data from Brazil, Panama, Sierra Nevada's (CA), Pennsylvania, Tennessee, Vermont, New Mexico, and Louisiana. Data for select sites in The Sierra Nevada's begins in 1995 with the majority of the data ranging between 2012-present. The most course resolution of data begins in the "location" table; Panama, Brazil, or USA, with the finest resolution of data to the individual level in the "capture" table. Each RIBBiTR site, Pennsylvania, Panama, Brazil, and Sierra Nevada's, has their own unique survey table (IE "penn_survey") to distinguish between region specific metadata. Within the "capture" table, there is individual level characteristics as well as columns indicating the various swabs and samples collected from the organism (IE "bd_swab_id"). Tables displayed to the right of the "capture" table contain processed swab data for various swabs and samples (IE "sierra_nevada_bd").
 
+
+
 ## Swab Data Nomenclature
 
 -   **bd_swab_id**: dry swab used for Bd detection
@@ -102,7 +104,7 @@ knitr::include_graphics(img_hobo)
 
 # Schema: "antifungal_isolate
 
-add text about isolate ref table
+add text about isolate ref table - Waiting for Doug reply
 
 \pagebreak
 
