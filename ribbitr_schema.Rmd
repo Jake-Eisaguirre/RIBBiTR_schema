@@ -6,7 +6,18 @@ urlcolor: blue
 indent: true
 header-includes: 
  - \usepackage{indentfirst}
+ - \usepackage{graphicx}
+ - \usepackage{fancyhdr}
+ - \pagestyle{fancy}
+ - \renewcommand{\headrulewidth}{0.3pt}
+ - \renewcommand{\footrulewidth}{0.3pt}
+
 ---
+
+\thispagestyle{fancy}
+\fancyhead[HR]{\includegraphics[width=1.75cm]{nsf_logo.png}}
+\fancyhead[HL]{\includegraphics[width=2cm]{ribbitr.png}}
+
 
 ```{r setup, include=FALSE}
 if (!require(librarian)){
@@ -21,6 +32,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
 
 
 ```
+
 
 ```{r, echo=F}
 # rib <- here("ribbitr.png")
@@ -37,10 +49,10 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
  # - \renewcommand{\footrulewidth}{0.4pt}
 ```
 
-## Data Acquisition Protocol
+**Data Acquisition Protocol**
 
 -   Select variables of interest from the data tables within schemas
--   Contact data owners within RIBBiTR for approved use of data; CC data manager
+-   Contact data owners within RIBBiTR for approved use of data; CC Data Manager
     -   Per [RIBBiTR data sharing agreement](https://docs.google.com/document/d/1m1EEuUH3ioVVXtFkDaWFHITddPcmputEhZxfW_omtrI/edit#heading=h.q4aj1repk7gi)
     -   Data owners
         -   Panama Survey Data: [Jamie Voyles](jvoyles@unr.edu)
@@ -54,22 +66,29 @@ knitr::opts_chunk$set(echo = TRUE, fig.align="center")
         -   Antibody: [Louise Rollins-Smith](louise.rollins-smith@vanderbilt.edu)
         -   Bacterial: [Doug Woodhams](dwoodhams@gmail.com)
         -   Mucosome: [Doug Woodhams](dwoodhams@gmail.com)
--   Contact data manager to develop query for variables of interest
+-   Contact [Data Manager](eisaguirre@ucsb.edu) to develop query for variables of interest
 -   *Note*: If you are requesting data from a processed swab table, then you must also contact the team that collected the swab and the team that processed the swab.
 
-<center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100"}</center>
+<!-- <center>![](ribbitr.png){width="175px"} ![](nsf_logo.png){width="100"}</center> -->
 
 \pagebreak
+\fancyhead[]{}
+\fancyhead[HR]{\includegraphics[width=1.75cm]{nsf_logo.png}}
+\fancyhead[HC]{\includegraphics[width=2cm]{ribbitr.png}}
 
 # Schema: "survey_data"
 
-The data found within the "survey_data" schema is comprised of RIBBiTR researcher legacy data and new NSF funded RIBBiTR data from Brazil, Panama, Sierra Nevada's (CA), Pennsylvania, Tennessee, Vermont, New Mexico, and Louisiana. Data for select sites in The Sierra Nevada's begins in 1995 with the majority of the data ranging between 2012-present. The most course resolution of data begins in the "location" table; Panama, Brazil, or USA, with the finest resolution of data to the individual level in the "capture" table. Each RIBBiTR site, Pennsylvania, Panama, Brazil, and Sierra Nevada's, has their own unique survey table (IE "penn_survey") to distinguish between region specific metadata. Within the "capture" table, there is individual level characteristics as well as columns indicating the various swabs and samples collected from the organism (IE "bd_swab_id"). Tables displayed to the right of the "capture" table contain processed swab data for various swabs and samples (IE "sierra_nevada_bd").
+$~$
+
+The data found within the "survey_data" schema is comprised of RIBBiTR researcher legacy data and new NSF funded RIBBiTR data from Brazil, Panama, Sierra Nevada's (CA), Pennsylvania, Tennessee, Vermont, New Mexico, and Louisiana. Data for select sites in The Sierra Nevada's begins in 1995 with the majority of all RIBBiTR data ranging between 2012-present. The most course resolution of data begins in the "location" table; Panama, Brazil, or USA, with the finest resolution of data to the individual level in the "capture" table. Each RIBBiTR site, Pennsylvania, Panama, Brazil, and Sierra Nevada's, has their own unique survey table (IE "penn_survey") to distinguish between region specific metadata. Within the "capture" table, there is individual level characteristics as well as columns indicating the various swabs and samples collected from the organism (IE "bd_swab_id"). Tables displayed to the right of the "capture" table contain processed swab data for various swabs and samples (IE "sierra_nevada_bd").
 
 $~$
 
-When viewing the schema, read from left to right with the left most part of the schema containing the most course resolution of data and the right right most part of the schema containing the most fine resolution of data. For this schema, if tables are connected by a line then we know there is a "one to many" relationship between the data tables. For example, we know one "location" (IE USA) can have many "regions" (IE Pennsylvania, New Mexico, etc), and one "region" (IE Pennsylvania) can have many "sites" (IE phelps pond, wood lab pond, etc). This pattern trickles through the schema until the "aural", "ves", and "capture" tables where the individual organism level data is stored. The processed swab tables (IE "serdp_bd") are a "one to one" relationship, meaning one swab ID is associated with one organism in the "capture" table. For example if a "bd_swab_id" is presnet in the "capture" table and the "bd_swab_id" is present in the "serdp_bd" table then we have processed swab data associated with that individual.
+When viewing the schema, read from left to right with the left most part of the schema containing the most course resolution of data and the right right most part of the schema containing the most fine resolution of data. For this schema, if tables are connected by a line then we know there is a "one to many" relationship between the data tables. For example, we know one "location" (IE USA) can have many "regions" (IE Pennsylvania, New Mexico, etc), and one "region" (IE Pennsylvania) can have many "sites" (IE phelps pond, wood lab pond, etc). This pattern trickles through the schema until the "aural", "ves", and "capture" tables where the individual organism level data is stored. The processed swab tables (IE "serdp_bd") are a "one to one" relationship, meaning one swab ID is associated with one organism in the "capture" table. For example if a "bd_swab_id" is present in the "capture" table and the "bd_swab_id" is present in the "serdp_bd" table then we have processed swab data associated with that individual.
 
-## Swab Data Nomenclature
+$~$
+
+ **Swab Data Nomenclature**
 
 -   **bd_swab_id**: dry swab used for Bd detection
 -   **genetic_id**: sample used for genetic processing (buccal, toe clip, tissue)
@@ -82,6 +101,10 @@ When viewing the schema, read from left to right with the left most part of the 
 
 \pagebreak
 
+# Schema: "survey_data"
+
+$~$
+
 ```{r, echo=F, out.width="100%", out.height="100%"}
 img <- here("RIBBiTR - survey_data.png")
 knitr::include_graphics(img)
@@ -91,13 +114,19 @@ knitr::include_graphics(img)
 
 # Schema: "hobo"
 
-Currently, the data found with in the "hobo" schema contains environmental data for select legacy RIBBiTR sites from the SERDP surveys. Four hobo loggers where deployed per selected sites; shade, soil, sun, and water which indicate environmental location of the logger at the site. Data points were collected every 30 minutes per hobo logo. The shade hobo logger contains measurements for temperature, relative humidity, and dew point. The sun hobo logger contains measurements for temperature and light intensity. The soil hobo logger contains measurements for soil temperature. The water hobo logger contains measurements for water temperature and light intensity.
+$~$
 
-```{r, echo=F, out.height="80%", out.width="100%"}
+Currently, the data found with in the "hobo" schema contains environmental data for select legacy RIBBiTR sites from the SERDP surveys. Four hobo loggers where deployed per selected sites; shade, soil, sun, and water which indicate environmental location of the logger at the site. Data points were collected every 30 minutes per hobo logger. The shade hobo logger contains measurements for temperature, relative humidity, and dew point. The sun hobo logger contains measurements for temperature and light intensity. The soil hobo logger contains measurements for soil temperature. The water hobo logger contains measurements for water temperature and light intensity.
+
+$~$
+
+```{r, echo=F, out.height="75%", out.width="100%"}
 
 img_hobo <- here("RIBBiTR - hobo.png")
 knitr::include_graphics(img_hobo)
 ```
+
+
 
 \pagebreak
 
@@ -105,9 +134,8 @@ knitr::include_graphics(img_hobo)
 
 add text about isolate ref table - Waiting for Doug reply
 
-\pagebreak
 
-```{r, echo=F, out.width="100%"}
+```{r, echo=F, out.width="100%", out.height="75%"}
 
 img_fung <- here("RIBBiTR - antifungal_isolate.png")
 knitr::include_graphics(img_fung)
