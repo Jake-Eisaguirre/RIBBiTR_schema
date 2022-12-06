@@ -126,6 +126,18 @@ img_hobo <- here("RIBBiTR - hobo.png")
 knitr::include_graphics(img_hobo)
 ```
 
+\pagebreak
+
+# Schema: "e_dna"
+
+add text
+
+```{r, echo=F, out.width="100%", out.height="75%"}
+
+img_fung <- here("RIBBiTR - e_dna.png") 
+knitr::include_graphics(img_fung)
+```
+
 
 
 \pagebreak
