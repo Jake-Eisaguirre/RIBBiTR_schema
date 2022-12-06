@@ -130,7 +130,7 @@ knitr::include_graphics(img_hobo)
 
 # Schema: "e_dna"
 
-add text
+**The "e_dna" schema is in beta production**. The schema currently contains processed data from the SERDP campaigns and metadata from the 2022 Panama campaign. The SERDP eDNA data only contains information about Bd detection and Bd quantification, there is no amphibian level eDNA information from SERDP.
 
 ```{r, echo=F, out.width="100%", out.height="75%"}
 
