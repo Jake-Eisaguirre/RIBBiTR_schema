@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  6 DEC 2022 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.1)  6 DEC 2022 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -511,15 +511,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <RIBBiTR - e_dna.png, id=71, 867.24pt x 989.6975pt>
 File: RIBBiTR - e_dna.png Graphic file (type png)
 <use RIBBiTR - e_dna.png>
-Package pdftex.def Info: RIBBiTR - e_dna.png  used on input line 245.
+Package pdftex.def Info: RIBBiTR - e_dna.png  used on input line 249.
 (pdftex.def)             Requested size: 427.46559pt x 487.82532pt.
 File: ribbitr.png Graphic file (type png)
 <use ribbitr.png>
-Package pdftex.def Info: ribbitr.png  used on input line 248.
+Package pdftex.def Info: ribbitr.png  used on input line 252.
 (pdftex.def)             Requested size: 56.9056pt x 30.1889pt.
 File: nsf_logo.png Graphic file (type png)
 <use nsf_logo.png>
-Package pdftex.def Info: nsf_logo.png  used on input line 248.
+Package pdftex.def Info: nsf_logo.png  used on input line 252.
 (pdftex.def)             Requested size: 49.79247pt x 50.09424pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -532,15 +532,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <RIBBiTR - antifungal_isolate.png, id=77, 221.82875pt x 704.6325pt>
 File: RIBBiTR - antifungal_isolate.png Graphic file (type png)
 <use RIBBiTR - antifungal_isolate.png>
-Package pdftex.def Info: RIBBiTR - antifungal_isolate.png  used on input line 254.
+Package pdftex.def Info: RIBBiTR - antifungal_isolate.png  used on input line 258.
 (pdftex.def)             Requested size: 153.57309pt x 487.82048pt.
 File: ribbitr.png Graphic file (type png)
 <use ribbitr.png>
-Package pdftex.def Info: ribbitr.png  used on input line 257.
+Package pdftex.def Info: ribbitr.png  used on input line 261.
 (pdftex.def)             Requested size: 56.9056pt x 30.1889pt.
 File: nsf_logo.png Graphic file (type png)
 <use nsf_logo.png>
-Package pdftex.def Info: nsf_logo.png  used on input line 257.
+Package pdftex.def Info: nsf_logo.png  used on input line 261.
 (pdftex.def)             Requested size: 49.79247pt x 50.09424pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -562,7 +562,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  72i,15n,77p,252b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on ribbitr_schema.pdf (6 pages, 2217839 bytes).
+Output written on ribbitr_schema.pdf (6 pages, 2218778 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  89 compressed objects within 1 object stream
