@@ -112,6 +112,17 @@ knitr::include_graphics(img)
 
 \pagebreak
 
+# Schema: "legacy_survey_data"
+
+$~$
+
+```{r, echo=F, out.width="100%", out.height="100%"}
+img <- here("RIBBiTR - legacy_survey_data.png")
+knitr::include_graphics(img)
+```
+
+\pagebreak
+
 # Schema: "hobo"
 
 $~$
