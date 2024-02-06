@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.27)  26 JUN 2023 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.27)  14 DEC 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,11 +467,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
 [2]
-<RIBBiTR - survey_data.png, id=43, 1939.245pt x 1939.245pt>
+<RIBBiTR - survey_data.png, id=43, 4225.7875pt x 2898.83pt>
 File: RIBBiTR - survey_data.png Graphic file (type png)
 <use RIBBiTR - survey_data.png>
 Package pdftex.def Info: RIBBiTR - survey_data.png  used on input line 218.
-(pdftex.def)             Requested size: 469.74852pt x 469.74852pt.
+(pdftex.def)             Requested size: 469.73857pt x 322.23396pt.
 File: ribbitr.png Graphic file (type png)
 <use ribbitr.png>
 Package pdftex.def Info: ribbitr.png  used on input line 221.
@@ -487,8 +487,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
-[3 <./RIBBiTR - survey_data.png (PNG copy)>]
-<RIBBiTR - legacy_survey_data.png, id=50, 1920.17375pt x 2131.965pt>
+[3 <./RIBBiTR - survey_data.png>]
+<RIBBiTR - legacy_survey_data.png, id=51, 1920.17375pt x 2131.965pt>
 File: RIBBiTR - legacy_survey_data.png Graphic file (type png)
 <use RIBBiTR - legacy_survey_data.png>
 Package pdftex.def Info: RIBBiTR - legacy_survey_data.png  used on input line 228.
@@ -509,7 +509,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
 [4 <./RIBBiTR - legacy_survey_data.png (PNG copy)>]
-<RIBBiTR - hobo.png, id=57, 774.895pt x 285.065pt>
+<RIBBiTR - hobo.png, id=58, 774.895pt x 285.065pt>
 File: RIBBiTR - hobo.png Graphic file (type png)
 <use RIBBiTR - hobo.png>
 Package pdftex.def Info: RIBBiTR - hobo.png  used on input line 250.
@@ -530,7 +530,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
 [5 <./RIBBiTR - hobo.png (PNG copy)>]
-<RIBBiTR - e_dna.png, id=64, 1066.98625pt x 946.53625pt>
+<RIBBiTR - e_dna.png, id=65, 1066.98625pt x 946.53625pt>
 File: RIBBiTR - e_dna.png Graphic file (type png)
 <use RIBBiTR - e_dna.png>
 Package pdftex.def Info: RIBBiTR - e_dna.png  used on input line 263.
@@ -551,7 +551,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
 [6 <./RIBBiTR - e_dna.png (PNG copy)>]
-<ribbitr - audio.png, id=71, 864.22874pt x 361.35pt>
+<ribbitr - audio.png, id=72, 864.22874pt x 361.35pt>
 File: ribbitr - audio.png Graphic file (type png)
 <use ribbitr - audio.png>
 Package pdftex.def Info: ribbitr - audio.png  used on input line 277.
@@ -572,7 +572,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-41.69427pt}.
 
 [7 <./ribbitr - audio.png (PNG copy)>]
-<RIBBiTR - antifungal_isolate.png, id=79, 221.82875pt x 704.6325pt>
+<RIBBiTR - antifungal_isolate.png, id=80, 221.82875pt x 704.6325pt>
 File: RIBBiTR - antifungal_isolate.png Graphic file (type png)
 <use RIBBiTR - antifungal_isolate.png>
 Package pdftex.def Info: RIBBiTR - antifungal_isolate.png  used on input line 286.
@@ -602,9 +602,9 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  89i,15n,90p,448b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/JaketheBoss/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on ribbitr_schema.pdf (8 pages, 2703553 bytes).
+Output written on ribbitr_schema.pdf (8 pages, 3230093 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
